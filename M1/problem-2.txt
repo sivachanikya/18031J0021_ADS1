@@ -1,0 +1,66 @@
+class Demo
+{
+int[] id;
+public Demo(int N)
+{
+id = new int[N];
+for(int i=0;i<N;i++)
+{
+id[i]=i;
+}
+}
+public boolean connected(int p,int q)
+{
+return id[p]==id[q];
+}
+public void print()
+{
+for(int i=0;i<id.length;i++)
+{
+System.out.print("\t"+id[i]);
+}
+}
+public void union(int p,int q)
+{
+int k=0;
+int pid=id[p];
+int qid=id[q];
+for(int i=0;i<id.length;i++)
+{
+k++;
+if( id[i]==pid)
+{
+id[i]=qid;
+}
+}
+System.out.println("No of times i/p accesses array is:"+k);
+}
+}
+public  class Problem1
+{
+public static void main(String[] args)
+{
+System.out.println("QUICK FIND");
+Demo d = new Demo(10);
+d.union(9,0);
+d.print();
+d.union(3,4);
+d.print();
+d.union(5,8);
+d.print();
+d.union(7,2);
+d.print();
+d.union(2,1);
+d.print();
+d.union(5,7);
+d.print();
+d.union(0,3);
+d.print();
+d.union(4,2);
+d.print();
+System.out.println(d.connected(9,0));
+System.out.println(d.connected(2,4));
+System.out.println(d.connected(7,2));
+System.out.println(d.connected(5,6));
+}
+}
