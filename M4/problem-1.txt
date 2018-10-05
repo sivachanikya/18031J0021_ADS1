@@ -1,0 +1,39 @@
+Q.1. Give the output printed by java Stack for the input (where "-" means pop) it was - the best - of times - - - it was - the - -?
+
+ANS: 			push	   			   pop				elements in stack
+			
+			 it                                 					it
+				
+			 was									it, was
+
+			  -				   was					it
+
+			 the									it, the				   
+
+			 best									it, the, best
+
+			  -				   best					it,the
+
+			 of									it, the, of				   			
+
+			times				   					it, the, of, times
+			  
+			  -				   times				it, the, of
+
+			  -				   of					it, the
+				
+			  -                                the					it
+
+			  it									it, it
+
+			  was									it, it, was
+	
+			  -				   was					it, it
+
+			  the				  					it, it, the
+
+			  -				   the					it, it
+
+			  -				   it					it
+
+The final element of the stack is "it".
