@@ -47,11 +47,12 @@ static int evaluatePostfix(String exp)
             	}	 
         } 
         return stack.pop();  
-    } 
+    } 	
     public static void main(String[] args)  
     { 
+	
     	Scanner scan=new Scanner(System.in);
-        String exp = scan.nextLine(); 
+      	String exp = scan.nextLine(); 
        // String exp="1 2 3 4 5 * + 6 * * +";
         System.out.println(evaluatePostfix(exp)); 
     } 
