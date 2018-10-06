@@ -1,7 +1,15 @@
 import java.util.*;
+import java.io.*;
 
-class Postfix {
-	
+class Solution {
+	public static void main(String[] args) throws Exception{
+		String exp;
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		exp=br.readLine();
+		Solution p=new Solution();
+		p.evaluate(exp);
+
+	}
 	void evaluate(String exp) {
 		String str[] = exp.split(" ");
 		int n = 0, l = str.length;
@@ -36,16 +44,8 @@ class Postfix {
 	}
 }
 
-class Stackpostfix {
 
-	public static void main(String[] args) {
-		String exp;
-		Scanner s = new Scanner(System.in);
-		//System.out.println("enter stringfor postfix nottion");
-		exp = s.nextLine();
-		Postfix p = new Postfix();
-		p.evaluate(exp);
 
-	}
+	
 
-}
+
