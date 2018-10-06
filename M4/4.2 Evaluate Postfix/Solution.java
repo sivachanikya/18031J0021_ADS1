@@ -6,11 +6,11 @@ public class Solution {
 		String exp;
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		exp=br.readLine();
-		Solution p=new Solution();
-		System.out.println(p.evaluate(exp));
+		//Solution p=new Solution();
+		System.out.println("hii");//p.evaluate(exp)
 
 	}
-	int  evaluate(String exp) {
+	/*int  evaluate(String exp) {
 		String str[] = exp.split(" ");
 		int n = 0, l = str.length;
 		Stack<Integer> stack = new Stack<>();
@@ -41,7 +41,7 @@ public class Solution {
 
 		}
 		return (stack.pop());
-	}
+	}*/
 }
 
 
