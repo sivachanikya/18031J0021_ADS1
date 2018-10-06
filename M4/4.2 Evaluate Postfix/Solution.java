@@ -51,7 +51,7 @@ class Solution
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		exp=br.readLine();
 		Solution p=new Solution();
-		System.out.println("hii");//p.evaluate(exp)
+		System.out.println(p.evaluate(exp));//
 
 }
 int  evaluate(String exp) {
