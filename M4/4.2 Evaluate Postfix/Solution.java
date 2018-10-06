@@ -7,10 +7,10 @@ public class Solution {
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		exp=br.readLine();
 		Solution p=new Solution();
-		p.evaluate(exp);
+		System.out.println(p.evaluate(exp));
 
 	}
-	void evaluate(String exp) {
+	int  evaluate(String exp) {
 		String str[] = exp.split(" ");
 		int n = 0, l = str.length;
 		Stack<Integer> stack = new Stack<>();
@@ -40,7 +40,7 @@ public class Solution {
 			}
 
 		}
-		System.out.println(stack.pop());
+		return (stack.pop());
 	}
 }
 
