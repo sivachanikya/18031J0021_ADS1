@@ -1,0 +1,17 @@
+E A S Y Q U E S T I O N    Merge sort (Top Down approach)
+
+[E A S Y Q U] [E S T I O N]
+
+[E A S] [Y Q U] [E S T] [I O N]
+
+[EA] [S] [Y Q] [U] [E S] [Y] [I O] [N]
+
+[E] [A] [S] [Y] [Q] [U] [E] [S] [T] [I] [O] [N]
+
+[A E] [S] [Q U] [Y] [E S] [T] [I N] [O]
+
+[A E S] [Q U Y] [E S T] [I N O]
+
+[A E Q S U Y] [E I N O S T]
+
+[A E E I N O Q S S T U Y]
