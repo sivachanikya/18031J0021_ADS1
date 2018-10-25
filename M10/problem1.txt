@@ -1,0 +1,21 @@
+Learning by doing-1
+1. Given a non negative number n, return the factorial of n, which is n * (n-1) * (n-2)... 1. Compute the result recursively (without loops).
+
+Class Factorial
+{
+public void factorial(int a)
+{
+if(a==1)
+return 1;
+else
+return factorial(a-1);
+}
+public ststic void main(String aargs[])
+{
+ Scanner sc=new Scanner(System.in);
+ int a;
+ System.out.println("enter num to find factorial");
+ int res=factorial(a);
+System.out.println("result"+res);
+}
+}
